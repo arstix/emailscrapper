@@ -1,0 +1,126 @@
+body{
+background:#ddd;
+}
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/*! CSS Used from: https://themesbrand.com/skote/layouts/assets/css/bootstrap.min.css */
+*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box;}
+ul{margin-top:0;margin-bottom:1rem;}
+ul ul{margin-bottom:0;}
+a{color:#556ee6;text-decoration:none;background-color:transparent;}
+a:hover{color:#1f3dd0;text-decoration:underline;}
+.list-unstyled{padding-left:0;list-style:none;}
+.badge{display:inline-block;padding:.25em .4em;font-size:75%;font-weight:500;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem;-webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;}
+@media (prefers-reduced-motion:reduce){
+.badge{-webkit-transition:none;transition:none;}
+}
+.badge:empty{display:none;}
+.badge-pill{padding-right:.6em;padding-left:.6em;border-radius:10rem;}
+.badge-success{color:#fff;background-color:#34c38f;}
+.badge-info{color:#fff;background-color:#50a5f1;}
+.badge-danger{color:#fff;background-color:#f46a6a;}
+.float-right{float:right!important;}
+.h-100{height:100%!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+.badge{border:1px solid #000;}
+}
+a{text-decoration:none!important;}
+a{outline:0!important;}
+/*! CSS Used from: https://themesbrand.com/skote/layouts/assets/css/icons.min.css */
+.bx{font-family:boxicons!important;font-weight:400;font-style:normal;font-variant:normal;line-height:1;display:inline-block;text-transform:none;speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.bx-aperture:before{content:"\e97e";}
+.bx-bitcoin:before{content:"\e998";}
+.bx-briefcase-alt-2:before{content:"\e9b1";}
+.bx-calendar:before{content:"\e9c2";}
+.bx-chat:before{content:"\e9d9";}
+.bx-detail:before{content:"\ea18";}
+.bx-envelope:before{content:"\ea38";}
+.bx-file:before{content:"\ea48";}
+.bx-home-circle:before{content:"\ea82";}
+.bx-layout:before{content:"\ea99";}
+.bx-list-ul:before{content:"\eaaa";}
+.bx-map:before{content:"\eaba";}
+.bx-receipt:before{content:"\eb0e";}
+.bx-share-alt:before{content:"\eb37";}
+.bx-store:before{content:"\eb5e";}
+.bx-task:before{content:"\eb6c";}
+.bx-tone:before{content:"\eb78";}
+.bx-user-circle:before{content:"\eb8e";}
+.bxs-bar-chart-alt-2:before{content:"\ebc8";}
+.bxs-eraser:before{content:"\ec58";}
+.bxs-user-detail:before{content:"\ed54";}
+/*! CSS Used from: https://themesbrand.com/skote/layouts/assets/css/app.min.css */
+.metismenu{margin:0;}
+.metismenu li{display:block;width:100%;}
+.metismenu .mm-collapse{display:none;}
+.metismenu .mm-collapse:not(.mm-show){display:none;}
+.metismenu .mm-collapse.mm-show{display:block;}
+.vertical-menu{width:250px;z-index:1001;background:#fff;bottom:0;margin-top:0;position:fixed;top:70px;-webkit-box-shadow:0 .75rem 1.5rem rgba(18,38,63,.03);box-shadow:0 .75rem 1.5rem rgba(18,38,63,.03);}
+#sidebar-menu{padding:10px 0 30px 0;}
+#sidebar-menu .has-arrow:after{content:"\F0140";font-family:'Material Design Icons';display:block;float:right;-webkit-transition:-webkit-transform .2s;transition:-webkit-transform .2s;transition:transform .2s;transition:transform .2s,-webkit-transform .2s;font-size:1rem;}
+#sidebar-menu ul li a{display:block;padding:.625rem 1.5rem;color:#545a6d;position:relative;font-size:13px;-webkit-transition:all .4s;transition:all .4s;}
+#sidebar-menu ul li a i{display:inline-block;min-width:1.75rem;padding-bottom:.125em;font-size:1.25rem;line-height:1.40625rem;vertical-align:middle;color:#7f8387;-webkit-transition:all .4s;transition:all .4s;}
+#sidebar-menu ul li a:hover{color:#383c40;}
+#sidebar-menu ul li a:hover i{color:#383c40;}
+#sidebar-menu ul li .badge{margin-top:4px;}
+#sidebar-menu ul li ul.sub-menu{padding:0;}
+#sidebar-menu ul li ul.sub-menu li a{padding:.4rem 1.5rem .4rem 3.5rem;font-size:13px;color:#545a6d;}
+#sidebar-menu ul li ul.sub-menu li ul.sub-menu{padding:0;}
+#sidebar-menu ul li ul.sub-menu li ul.sub-menu li a{padding:.4rem 1.5rem .4rem 4.5rem;font-size:13.5px;}
+.menu-title{padding:12px 20px!important;letter-spacing:.05em;pointer-events:none;cursor:default;font-size:11px;text-transform:uppercase;color:#7f8387;font-weight:600;}
+.mm-active{color:#556ee6!important;}
+.mm-active>a{color:#556ee6!important;}
+.mm-active>a i{color:#556ee6!important;}
+.mm-active .active{color:#556ee6!important;}
+.mm-active>i{color:#556ee6!important;}
+@media (max-width:992px){
+.vertical-menu{display:none;}
+}
+body[data-sidebar=dark] .vertical-menu{background:#2a3042;}
+body[data-sidebar=dark] #sidebar-menu ul li a{color:#a6b0cf;}
+body[data-sidebar=dark] #sidebar-menu ul li a i{color:#6a7187;}
+body[data-sidebar=dark] #sidebar-menu ul li a:hover{color:#fff;}
+body[data-sidebar=dark] #sidebar-menu ul li a:hover i{color:#fff;}
+body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a{color:#79829c;}
+body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a:hover{color:#fff;}
+body[data-sidebar=dark] .mm-active{color:#fff!important;}
+body[data-sidebar=dark] .mm-active>a{color:#fff!important;}
+body[data-sidebar=dark] .mm-active>a i{color:#fff!important;}
+body[data-sidebar=dark] .mm-active>i{color:#fff!important;}
+body[data-sidebar=dark] .mm-active .active{color:#fff!important;}
+body[data-sidebar=dark] .menu-title{color:#6a7187;}
+.waves-effect{position:relative;cursor:pointer;display:inline-block;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;}
+@media print{
+.vertical-menu{display:none!important;}
+}
+[data-simplebar]{position:relative;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;}
+.simplebar-wrapper{overflow:hidden;width:inherit;height:inherit;max-width:inherit;max-height:inherit;}
+.simplebar-mask{direction:inherit;position:absolute;overflow:hidden;padding:0;margin:0;left:0;top:0;bottom:0;right:0;width:auto!important;height:auto!important;z-index:0;}
+.simplebar-offset{direction:inherit!important;-webkit-box-sizing:inherit!important;box-sizing:inherit!important;resize:none!important;position:absolute;top:0;left:0!important;bottom:0;right:0!important;padding:0;margin:0;-webkit-overflow-scrolling:touch;}
+.simplebar-content-wrapper{direction:inherit;-webkit-box-sizing:border-box!important;box-sizing:border-box!important;position:relative;display:block;height:100%;width:auto;visibility:visible;overflow:auto;max-width:100%;max-height:100%;scrollbar-width:none;padding:0!important;}
+.simplebar-content-wrapper::-webkit-scrollbar{display:none;}
+.simplebar-content:after,.simplebar-content:before{content:' ';display:table;}
+.simplebar-placeholder{max-height:100%;max-width:100%;width:100%;pointer-events:none;}
+.simplebar-height-auto-observer-wrapper{-webkit-box-sizing:inherit!important;box-sizing:inherit!important;height:100%;width:100%;max-width:1px;position:relative;float:left;max-height:1px;overflow:hidden;z-index:-1;padding:0;margin:0;pointer-events:none;-webkit-box-flex:inherit;-ms-flex-positive:inherit;flex-grow:inherit;-ms-flex-negative:0;flex-shrink:0;-ms-flex-preferred-size:0;flex-basis:0;}
+.simplebar-height-auto-observer{-webkit-box-sizing:inherit;box-sizing:inherit;display:block;opacity:0;position:absolute;top:0;left:0;height:1000%;width:1000%;min-height:1px;min-width:1px;overflow:hidden;pointer-events:none;z-index:-1;}
+.simplebar-track{z-index:1;position:absolute;right:0;bottom:0;pointer-events:none;overflow:hidden;}
+.simplebar-scrollbar{position:absolute;right:2px;width:4px;min-height:10px;}
+.simplebar-scrollbar:before{position:absolute;content:'';background:#a2adb7;border-radius:7px;left:0;right:0;opacity:0;-webkit-transition:opacity .2s linear;transition:opacity .2s linear;}
+.simplebar-track.simplebar-vertical{top:0;width:11px;}
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before{top:2px;bottom:2px;}
+.simplebar-track.simplebar-horizontal{left:0;height:11px;}
+.simplebar-track.simplebar-horizontal .simplebar-scrollbar:before{height:100%;left:2px;right:2px;}
+.simplebar-track.simplebar-horizontal .simplebar-scrollbar{right:auto;left:0;top:2px;height:7px;min-height:0;min-width:10px;width:auto;}
+/*! CSS Used fontfaces */
+@font-face{font-family:boxicons;font-weight:400;font-style:normal;src:url(https://themesbrand.com/skote/layouts/assets/fonts/boxicons.eot);src:url(https://themesbrand.com/skote/layouts/assets/fonts/boxicons.eot) format("embedded-opentype"),url(https://themesbrand.com/skote/layouts/assets/fonts/boxicons.woff2) format("woff2"),url(https://themesbrand.com/skote/layouts/assets/fonts/boxicons.woff) format("woff"),url(https://themesbrand.com/skote/layouts/assets/fonts/boxicons.ttf) format("truetype"),url(https://themesbrand.com/skote/layouts/assets/fonts/boxicons.svg#boxicons) format("svg");}
+@font-face{font-family:"Material Design Icons";src:url(https://themesbrand.com/skote/layouts/assets/fonts/materialdesignicons-webfont.eot?v=5.0.45);src:url(https://themesbrand.com/skote/layouts/assets/fonts/materialdesignicons-webfont.eot#iefix&v=5.0.45) format("embedded-opentype"),url(https://themesbrand.com/skote/layouts/assets/fonts/materialdesignicons-webfont.woff2?v=5.0.45) format("woff2"),url(https://themesbrand.com/skote/layouts/assets/fonts/materialdesignicons-webfont.woff?v=5.0.45) format("woff"),url(https://themesbrand.com/skote/layouts/assets/fonts/materialdesignicons-webfont.ttf?v=5.0.45) format("truetype");font-weight:400;font-style:normal;}
